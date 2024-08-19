@@ -307,6 +307,47 @@ form {
           animation: 25s balloon_move infinite alternate linear;
 }
 
+.contact-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+
+#contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+}
+
+.standard-label, #send-button {
+  margin:15px;
+}
+
+.standard-label {
+  font-weight: 400;
+}
+
+  
+
+    
+
+    
+
+
 
 
 
