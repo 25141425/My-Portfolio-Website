@@ -260,6 +260,31 @@ form {
   animation: 25s balloon_move infinite alternate linear;
 }
 
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+
+#contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+}
+
+.standard-label, #send-button {
+  margin:15px;
+}
+
+.standard-label {
+  font-weight: 400;
+}
+
+
+
 
 
 
