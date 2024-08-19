@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf–8">
-  <title>My Website</title>
+  <title>Contact Benjamin K.</title>
   <link rel="shortcut icon" href="img/Mikro_colored Kopie.png">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,25 +32,30 @@
     </nav>
   </header>
 
-  <div>
-    <a href="#">Check out my videos!</a>
+  
+
+
+  <form action="" method="post" id="contact-form">
+    
+  <label class="standard-label" for="contact-email">Your Email: </label>
+  <input type="email" id="contact-email" required>
+
+  <label class="standard-label" for="contact-phone">Phone: </label>
+  <input type="tel" id="contact-phone">
+
+  <label class="standard-label" for="contact-message">Your Message: </label>
+  <textarea id="contact-message" maxlength="250" required></textarea>
+
+  <input id="send-button" type="submit" value="Send Message">
+  </form>
+
+  <div class="contact-links">
+    <a href="#">Check out more about me!</a>
     <a href="tel:+49 30 12 34 56 78">Phone: +49 30 12 34 56 78</a>
     <a href="info@bennykaltenba.ch">Email: info@bennykaltenba.ch</a>
   </div>
 
-  <form action="" method="post" id="contact-form">
-    
-    <label class="standard-label" for="contact-email">E-mail: </label>
-    <input type="email" id="contact-email" required>
   
-    <label class="standard-label" for="contact-phone">Phone: </label>
-    <input type="tel" id="contact-phone">
-  
-    <label class="standard-label" for="contact-message">Your Message: </label>
-    <textarea id="contact-message" maxlength="250" required></textarea>
-  
-    <input type="submit" value="Send Message">
-  </form>
 
   <footer class="page_footer">
     <p>Find me on</p>
