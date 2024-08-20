@@ -361,3 +361,16 @@ form {
 .projects_section {
   padding: 20px;
 }
+
+@media all and (max-width: 500px) {
+  .profile  {
+    width: 300px;
+  text-align: center;}
+    .profile_pic {
+      width: 100px;
+      float: none;
+      margin: auto;
+      margin-top: 10px;
+    
+  }
+}
