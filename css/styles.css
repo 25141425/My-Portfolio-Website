@@ -322,6 +322,19 @@ form {
   .skyline_graphic {
     width: 250px;
     margin: auto;
+    height: 150px;
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 800px) {
+  .about_container {
+    width: 400px;
+    margin: auto;
+  }
+  .skyline_graphic {
+    width: 400px;
+    height: 250px;
+    margin: auto;
   }
 }
 
