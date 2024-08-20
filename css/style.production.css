@@ -377,7 +377,7 @@ form {
 
 @media all and (max-width: 500px) {
   .skyline_graphic {
-    max-width: 250px;
+    width: 250px;
     margin: auto;
 
   }
