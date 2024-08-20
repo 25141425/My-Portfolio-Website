@@ -389,9 +389,5 @@ form {
   margin: auto;
 }
 
-@media all and (max-width: 500px) {
-  .about_container {
-    width: 300px;
-  }
-}
+
   
