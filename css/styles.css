@@ -31,11 +31,9 @@ header {
   max-width: 100%;
 }
 
-nav {
-  a {
-    font-family: var(--secondary-font);
-  }
-}
+nav a {
+  font-family: var(--secondary-font);
+ }
 
 h1 {
   color: var(--primary-font-color);
@@ -322,6 +320,12 @@ form {
   width: 800px;
   height: 378px;
   margin: 0 auto;
+}
+
+@media all and (max-width: 500px) {
+  .about_container {
+    width: 300px;
+  }
 }
 
 
