@@ -192,6 +192,11 @@ form {
   margin: 0;
 }
 
+.projects_heading {
+  display: flex;
+  justify-content: center;
+}
+
 .about_container {
   display: flex;
   flex-direction: column;
@@ -258,6 +263,11 @@ form {
 
 .balloon {
   animation: 25s balloon_move infinite alternate linear;
+}
+
+.contact_heading {
+  display: flex;
+  justify-content: center;
 }
 
 .contact-links {
