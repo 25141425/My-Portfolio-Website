@@ -19,8 +19,7 @@ body {
   font-family: var(--primary-font);
   font-size: var(--primary-font-size);
   font-weight: var(--primary-font-weight);
-  line-height: 1.5;
-  
+  line-height: 1.5; 
 }
 
 header {
@@ -98,10 +97,17 @@ form {
 }
 
 .page_footer {
-  clear: both;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.social_media {
+  display: flex;
+  column-gap: 10px;
 }
 
 .profile {
@@ -282,16 +288,3 @@ form {
 .standard-label {
   font-weight: 400;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
