@@ -388,4 +388,10 @@ form {
   height: 378px;
   margin: 0 auto;
 }
+
+@media all and (max-width: 500px) {
+  .about_container {
+    padding: 10px;
+  }
+}
   
