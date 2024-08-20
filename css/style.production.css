@@ -39,11 +39,10 @@ header {
   max-width: 100%;
 }
 
-nav {
-  a {
-    font-family: var(--secondary-font);
+nav a {
+   font-family: var(--secondary-font);
   }
-}
+
 
 h1 {
   color: var(--primary-font-color);
