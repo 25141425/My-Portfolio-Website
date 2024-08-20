@@ -391,7 +391,7 @@ form {
 
 @media all and (max-width: 500px) {
   .about_container {
-    padding: 10px;
+    width: 300px;
   }
 }
   
